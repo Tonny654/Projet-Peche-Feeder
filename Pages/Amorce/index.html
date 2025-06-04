@@ -11,7 +11,7 @@
     <header>
       <nav class="navbar">
         <div class="logo">
-          <img src="images/logo.png" alt="Logo" />
+          <img src="../../assets/logo/bg_peche feeder1.webp" alt="Logo" />
           <span>Pêche au Feeder</span>
         </div>
         <div class="burger" onclick="toggleMenu()">&#9776;</div>
@@ -31,20 +31,36 @@
         <!-- Gardon -->
         <div class="card fiche-amorce" id="fiche-gardon">
           <div class="card-content">
+            <img src="../../assets/gardon.jpg" alt="Gardon">
             <h2>🎯 Gardon</h2>
             <ul>
-              <li>Chapelure blonde : 500g</li>
-              <li>Terre de Somme : 200g</li>
-              <li>Chènevis moulu : 100g</li>
-              <li>Amorce fine spéciale gardon : 200g</li>
+              <li>Chapelure blonde fine : 800g</li>
+              <li>PV1 : 300g</li>
+              <li>Chènevis moulu grillé : 300g</li>
+              <li>Coriandre moulue : 50g</li>
+              <li>Farine de biscuit : 400g</li>
+              <li>Coco belge : 200g</li>
+              <li>Terre de Somme : 400g</li>
+              <button class="btn-details" onclick="openModal('gardon')">En savoir plus</button>
             </ul>
             <!-- <button onclick="printFiche('fiche-gardon')">🖨️ Imprimer cette amorce</button> -->
           </div>
         </div>
 
+<!-- Modale (une seule pour toute la page) -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modal-title"></h2>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+
         <!-- Brème -->
         <div class="card fiche-amorce" id="fiche-breme">
           <div class="card-content">
+            <img src="../../assets/bremes.jpg" alt="Brêmes">
             <h2>🎯 Brème</h2>
             <ul>
               <li>Farine de biscuit : 300g</li>
@@ -59,6 +75,7 @@
         <!-- Carpe -->
         <div class="card fiche-amorce" id="fiche-carpe">
           <div class="card-content">
+            <img src="../../assets/carpe.jpg" alt="Carpe">
             <h2>🎯 Carpe</h2>
             <ul>
               <li>Pellets moulus : 500g</li>
@@ -73,6 +90,7 @@
         <!-- Tanche -->
         <div class="card fiche-amorce" id="fiche-tanche">
           <div class="card-content">
+            <img src="../../assets/tanche.jpg" alt="Tanche">
             <h2>🎯 Tanche</h2>
             <ul>
               <li>Terre de rivière : 400g</li>
@@ -87,6 +105,7 @@
         <!-- Ablette -->
         <div class="card fiche-amorce" id="fiche-ablette">
           <div class="card-content">
+            <img src="../../assets/ablette.JPG" alt="Ablette">
             <h2>🎯 Ablette</h2>
             <ul>
               <li>Chapelure blonde claire : 500g</li>
