@@ -67,7 +67,7 @@ header {
 }
 
 .nav-links a:hover {
-  color: #c8e6c9;
+  color: hwb(227 4% 51%);
 }
 
 .burger {

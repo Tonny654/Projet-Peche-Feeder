@@ -7,13 +7,19 @@ const modalContents = {
     <p><strong>Mélanger à sec :</strong> mélanger toutes les farines sauf la terre.</p>
     <p><strong>Premier mouillage :</strong> avec de l'eau légèrement aromatisée(scopex,brasem ou coriandre liquide).</p>
     <p><strong>Repos :</strong> laisser reposer 15 min.</p>
-    <p><strong>Tamisage :</strong> passer au tamis fin pour homogéiser.</p>
+    <p><strong>Tamisage :</strong> passer au tamis fin pour homogénéiser.</p>
     <p><strong>Ajouter la terre de somme :</strong> (si nécessaire pour ajuster la densité et limiter la diffusion en eau claire).</p>
     <p><strong>Ajuster la texture :</strong> Au besoin, re-humidifier légèrement pour obtenir une amorce qui se tient bien dans le feeder mais éclate au fond.</p>
   `,
   breme: `
     <p><strong>Montage Brème :</strong> Feeder ouvert de 30-40g. Bas de ligne de 30cm en 12/100, hameçon n°16.</p>
     <p><strong>Conseil :</strong> Utiliser des appâts sucrés comme maïs doux ou vers de vase en bouquet.</p>
+    <p><strong>Mélange :</strong> Mélanger tous les ingrédients secs sauf la terre.</p>
+    <p><strong>Mouiller progréssivement :</strong> en 2 ou 3 passes, avec une eau légèrement parfumée (scopex, vanille ou brasem).</p>
+    <p><strong>Repos :</strong> laisser reposer 10-15 min, pour que les farines absorbent l'eau.</p>
+    <p><strong>Ajouter la terre de rivère :</strong> Juste avant de pêcher (ajuster la densité sans altérer l'attractivité).</p>
+    <p><strong>Tamisage :</strong> Obligatoire pour aérer le mélange.</p>
+    <p><strong>Astuces :</strong> Ajouter au besoin : asticots morts, fouillis ou vers coupés (10% max en coucours).</p>
   `,
   carpe: `
     <p><strong>Montage Carpe :</strong> Méthode feeder, hameçon n°10 avec cheveu, bas de ligne 15cm en 20/100.</p>
