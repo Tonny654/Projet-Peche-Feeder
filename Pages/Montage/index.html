@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montage Feeder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="../../assets/logo/logo feeder tonny.png" alt="Logo Pêche" class="logo">
+    <nav>
+      <ul>
+        <li><a href="../../index.html" class="active">Accueil</a></li>
+        <li><a href="../Techniques/index.html">Techniques</a></li>
+        <li><a href="../Amorce/index.html">Amorces</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-layout">
+    <!-- Image ou vidéo à gauche -->
+    <div class="montage-img">
+      <img src="images/montage-feeder.jpg" alt="Montage feeder">
+    </div>
+
+    <!-- Texte et bouton -->
+    <div class="montage-text">
+      <h1>Montage Feeder Classique</h1>
+      <p>Le montage feeder permet une présentation optimale de l’amorce autour de l’hameçon. Utilisé en rivière ou en étang, il est parfait pour la brème, le gardon et la carpe.</p>
+      <button onclick="showMontage()">En savoir plus</button>
+    </div>
+  </main>
+
+  <!-- Modale (popup) -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Détails du montage feeder</h2>
+      <p>
+        1. Attache un feeder cage de 30 à 60g sur un émerillon à agrafe.<br>
+        2. Monte une perle amortisseur pour protéger le nœud.<br>
+        3. Utilise un bas de ligne de 30cm (fil 0.14mm) avec un hameçon n°16 à 10.<br>
+        4. Remplis le feeder d’amorce collante pour rivière ou souple pour étang.<br>
+        5. Lance et laisse le feeder couler au fond, puis tends la ligne.
+      </p>
+    </div>
+
+    
+  </div>
+   <footer>
+    <p>&copy; 2025 Pêche au Feeder - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
