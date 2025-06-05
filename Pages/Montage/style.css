@@ -9,6 +9,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-image: url(../../assets/logo/peche\ feeder\ 3.webp);
   background-size: cover;
   background-position: center;
