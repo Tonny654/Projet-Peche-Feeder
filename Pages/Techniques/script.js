@@ -37,6 +37,7 @@ const modalContents = {
   ablette: `
     <p><strong>Montage Ablette :</strong> Ligne très fine, mini feeder 5g, hameçon n°22, bas de ligne 8/100.</p>
     <p><strong>Conseil :</strong> Amorçage en surface, appâts vivants très petits (asticot coupé).</p>
+    <p><strong>Descriptif :</strong> L'ablette se pêche au coup avec une ligne de 6/100ème, équipée d'un hameçon de 24 voire 26. La plombée groupée à quelques 10 cm de l'hameçon permet une coulée rapide à la profondeur de recherche. Il faut escher l'hameçon avec un ver de vase ou un pinkie (petit asticot). </p>
   `
 };
 

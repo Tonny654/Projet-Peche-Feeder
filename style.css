@@ -83,6 +83,11 @@ main {
   padding: 2rem;
 }
 
+.video-container {
+  flex: 1 1 40%;
+  min-width: 300px;
+}
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
